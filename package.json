@@ -1,0 +1,25 @@
+{
+  "name": "video",
+  "version": "0.0.1",
+  "description": "a video service",
+  "keywords": [],
+  "author": "elppa.c",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elppac/video.git"
+  },
+  "bin": {
+    "video": "./bin/index.js"
+  },
+  "scripts": {},
+  "main": "./index.js",
+  "dependencies": {
+    "commander": "^2.12.2"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/elppac/video/issues"
+  },
+  "homepage": "https://github.com/elppac/video#readme",
+  "license": "Apache-2.0"
+}
