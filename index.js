@@ -4,7 +4,7 @@ var fs = require("fs"),
     path = require("path");
 
 var cp = require('child_process');
-var ls = cp.exec(`"c:\\program files (x86)\\Google\\Chrome\\Application\\chrome.exe" --start-fullscreen https://translate.alibaba.com/audio/setting.htm?v=http://localhost:8888/movie.mp4`, {}/*options, [optional]*/);
+var ls = cp.exec(`"c:\\program files (x86)\\Google\\Chrome\\Application\\chrome.exe" --no-sandbox --start-fullscreen https://translate.alibaba.com/audio/setting.htm?v=http://localhost:8888/movie.mp4`, {}/*options, [optional]*/);
 
 ls.stdout.on('data', function (data) {
     console.log('stdout: ' + data);
